@@ -6,9 +6,9 @@ pygame.init()
 pygame.mixer.init()
 
 # Adding sounds
-bass = pygame.mixer.Sound("/samples/bass.wav")
-piano = pygame.mixer.Sound("/samples/piano.wav")
-beat = pygame.mixer.Sound("/samples/beat.wav")
+bass = pygame.mixer.Sound("/home/pi/projects/raspberry-musicbox/samples/bass.wav")
+piano = pygame.mixer.Sound("/home/pi/projects/raspberry-musicbox/samples/piano.wav")
+beat = pygame.mixer.Sound("/home/pi/projects/raspberry-musicbox/samples/beat.wav")
 
 # Configure the buttons with the GPIO pins
 btn_red = Button(17)
