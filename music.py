@@ -1,7 +1,4 @@
 from gpiozero import Button
-import pygame
-
-pygame.init()
 
 # Adding sounds
 bass = pygame.mixer.Sound("/home/pi/projects/raspberry-musicbox/samples/bass.wav")
