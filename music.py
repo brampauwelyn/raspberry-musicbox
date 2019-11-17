@@ -11,10 +11,7 @@ directory = os.path.dirname(path)
 # Adding sounds
 piano = pygame.mixer.Sound(directory + "/samples/piano.wav")
 bass = pygame.mixer.Sound(directory + "/samples/bass.wav")
-beat = pygame.mixer.Sound(directory + "/samples/beat.wav")
-
-piano.play()
-sleep(1)
+beat = pygame.mixer.Sound(directory + "/samples/ambi.wav")
 
 # Configure the buttons with the GPIO pins
 btn_red = Button(17)
