@@ -1,5 +1,4 @@
 from gpiozero import Button
-from signal import pause
 import pygame
 
 pygame.init()
